@@ -67,3 +67,15 @@ I created the web folder:
 Then I updated the config_dir line in `/usr/local/bin/webcamd` and set it to `config_dir=/home/mks/printer_data/config/`
 
 Then I moved klipper_config/webcam.txt to printer_data/config/webcam.txt
+
+
+# Random things I've found but don't know what to do with
+
+The TFT is completely separate from the rest of this. It looks like there's a running service called `mksclient` in `/home/mks/Desktop/myfile/ws/build` which seems to be how it communicates with the TFT. And a nice, empty src/ directory of course. Seems like it's software from makerbase but nothing on their github seems related.
+
+# printer Info
+
+* CPU: ARM Cortex A53
+* MCU: stm32f401xc
+* Disk space: 8gb
+* Memory: 1gb
