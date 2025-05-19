@@ -7,6 +7,24 @@ It's also using the old klipper_config dir, and I'd like to update it to use the
 
 My goal is to updated to Armbian Bullseye or Bookworm as well as the latest versions of Klipper, Mainsail, Fluidd, and others.
 
+# OS
+
+Update /etc/sources.list
+
+```
+deb http://deb.debian.org/debian bullseye main contrib non-free
+deb http://deb.debian.org/debian bullseye-updates main contrib non-free
+deb http://deb.debian.org/debian bullseye-backports main contrib non-free
+deb http://security.debian.org/ bullseye-security/updates main contrib non-free
+```
+
+If you want to update to bookworm, just replace "bullseye" with "bookworm". 
+
+Then update apt and install new packages:
+
+* `sudo apt update`
+* `sudo apt dist-upgrade`
+
 # fluidd
 
 Fluidd does not seem to be have any changes made by Artillery, so this easily updates using the moonraker updater.
