@@ -7,6 +7,10 @@ It's also using the old klipper_config dir, and I'd like to update it to use the
 
 My goal is to updated to Armbian Bullseye or Bookworm as well as the latest versions of Klipper, Mainsail, Fluidd, and others.
 
+I'm also interested in controlling the lamp as well as updating the TFT UI.
+
+If you've made it here, you can try to find me in the Artillery discord.
+
 # OS
 
 Update /etc/sources.list
